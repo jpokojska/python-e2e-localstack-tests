@@ -135,4 +135,4 @@ jobs:
         ADMIN_PASSWORD: "admin"
         BACKEND_URL: "http://localhost:4001"
         IS_HEADLESS: "true"
-      run: pytest tests/api/
+      run: pytest tests/api/ -n auto
