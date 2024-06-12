@@ -1,0 +1,87 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64/125.0.6422.141/chromedriver-linux64/chromedriver] found in cache
+INFO     http.client:base_api.py:18 Making POST request to URL: http://localhost:4001/users/signup
+INFO     http.client:base_api.py:24 Request JSON Body:
+{
+    "username": "hoffmanamanda",
+    "password": "m#FLM9tZ*8",
+    "email": "aprilholt@example.org",
+    "firstName": "David",
+    "lastName": "Edwards",
+    "roles": [
+        "ROLE_ADMIN",
+        "ROLE_CLIENT"
+    ]
+}
+INFO     http.client:base_api.py:35 Response Headers:
+{
+    "Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Date": "Wed, 12 Jun 2024 08:47:53 GMT",
+    "Keep-Alive": "timeout=60",
+    "Connection": "keep-alive"
+}
+INFO     http.client:base_api.py:39 Response Body:
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJob2ZmbWFuYW1hbmRhIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxODE4MjA3NCwiZXhwIjoxNzE4MTgyMzc0fQ.8rpACxhNpeeXU4O3PkXcS_-f7uoif9VqCThtLbi_rUg"
+}
+INFO     http.client:base_api.py:18 Making POST request to URL: http://localhost:4001/users/signin
+INFO     http.client:base_api.py:24 Request JSON Body:
+{
+    "username": "hoffmanamanda",
+    "password": "m#FLM9tZ*8"
+}
+INFO     http.client:base_api.py:35 Response Headers:
+{
+    "Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Date": "Wed, 12 Jun 2024 08:47:55 GMT",
+    "Keep-Alive": "timeout=60",
+    "Connection": "keep-alive"
+}
+INFO     http.client:base_api.py:39 Response Body:
+{
+    "username": "hoffmanamanda",
+    "roles": [
+        "ROLE_ADMIN",
+        "ROLE_CLIENT"
+    ],
+    "firstName": "David",
+    "lastName": "Edwards",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJob2ZmbWFuYW1hbmRhIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxODE4MjA3NSwiZXhwIjoxNzE4MTgyMzc1fQ.vjsNOzIxfJUMdPjG5u4A90OLQ07QtMxxp8JuwLHH6rE",
+    "email": "aprilholt@example.org"
+}
+INFO     http.client:base_api.py:18 Making DELETE request to URL: http://localhost:4001/users/hoffmanamanda
+INFO     http.client:base_api.py:20 Request Headers:
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJob2ZmbWFuYW1hbmRhIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxODE4MjA3NSwiZXhwIjoxNzE4MTgyMzc1fQ.vjsNOzIxfJUMdPjG5u4A90OLQ07QtMxxp8JuwLHH6rE"
+}
+INFO     http.client:base_api.py:35 Response Headers:
+{
+    "Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "Date": "Wed, 12 Jun 2024 08:47:55 GMT",
+    "Keep-Alive": "timeout=60",
+    "Connection": "keep-alive"
+}
