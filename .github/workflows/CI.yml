@@ -114,20 +114,6 @@ jobs:
         IS_HEADLESS: "true"
       run: pytest tests/ -n auto
 
-  test_api:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.12.1'
-
-    - name: Installing necessary packages for API tests
-      run: pip install -r requirements.txt pytest
-
     - name: Run API tests
       env:
         FRONTEND_URL: "http://localhost:8081"
